@@ -1,6 +1,7 @@
 import React, { useState } from "react";
-import { TextField, Button, Container, Typography } from "@mui/material";
+import { TextField, Button, Container, Typography, Box } from "@mui/material";
 import "./App.css";
+import logo from "./logo.png";
 
 function App() {
   const [url, setUrl] = useState("");
@@ -24,7 +25,10 @@ function App() {
   };
 
   return (
-    <Container maxWidth="sm" style={{ marginTop: "2rem" }}>
+    <Container maxWidth="sm" style={{ marginTop: "2rem", textAlign: "center" }}>
+      <Box display="flex" justifyContent="center" alignItems="center" mb={3}>
+        <img src={logo} alt="Logo" style={{ width: "150px" }} />
+      </Box>
       <Typography variant="h4" component="h1" gutterBottom></Typography>
       <form onSubmit={handleSubmit}>
         <TextField
