@@ -14,6 +14,7 @@ import "react-toastify/dist/ReactToastify.css";
 import ZoomIcon from "@mui/icons-material/VideoCall";
 import "./App.css";
 import logo from "./logo.png";
+import zoomLogo from "./zoom-logo.png";
 
 function App() {
   const [url, setUrl] = useState("");
@@ -46,23 +47,30 @@ function App() {
   };
 
   return (
-    <Container maxWidth="sm" style={{ marginTop: "2rem", textAlign: "center" }}>
+    <Container maxWidth="sm" sx={{ mt: 4, textAlign: "center" }}>
       <ToastContainer />
-      <Box display="flex" justifyContent="center" alignItems="center" mb={3}>
-        <img src={logo} alt="Logo" style={{ width: "150px" }} />
+      <Box
+        display="flex"
+        justifyContent="center"
+        alignItems="center"
+        mb={3}
+        sx={{ gap: 2 }}
+      >
+        <img src={logo} alt="Logo" style={{ width: "120px" }} />
+        <Typography variant="h6" component="span">
+          X
+        </Typography>
+        <img src={zoomLogo} alt="Zoom Logo" style={{ width: "120px" }} />
       </Box>
-      <Typography variant="h4" component="h1" gutterBottom>
-        Enter Zoom Meeting URL
-      </Typography>
       <form onSubmit={handleSubmit}>
         <TextField
-          label="URL"
+          label="Zoom Meeting URL"
           variant="outlined"
           placeholder="https://us05web.zoom.us/j/xxxxxx?pwd=yyyyy.1"
           fullWidth
           value={url}
           onChange={(e) => setUrl(e.target.value)}
-          style={{ marginBottom: "1rem" }}
+          sx={{ mb: 3 }}
           InputProps={{
             endAdornment: (
               <InputAdornment position="end">
