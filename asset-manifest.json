@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Zoom-App-/static/css/main.f855e6bc.css",
+    "main.js": "/Zoom-App-/static/js/main.e6fb63f8.js",
+    "static/js/453.bf76d5bc.chunk.js": "/Zoom-App-/static/js/453.bf76d5bc.chunk.js",
+    "index.html": "/Zoom-App-/index.html",
+    "main.f855e6bc.css.map": "/Zoom-App-/static/css/main.f855e6bc.css.map",
+    "main.e6fb63f8.js.map": "/Zoom-App-/static/js/main.e6fb63f8.js.map",
+    "453.bf76d5bc.chunk.js.map": "/Zoom-App-/static/js/453.bf76d5bc.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f855e6bc.css",
+    "static/js/main.e6fb63f8.js"
+  ]
+}
