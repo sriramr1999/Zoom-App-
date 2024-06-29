@@ -1,15 +1,16 @@
 {
   "files": {
     "main.css": "/Zoom-App-/static/css/main.756f275b.css",
-    "main.js": "/Zoom-App-/static/js/main.f1d64e48.js",
+    "main.js": "/Zoom-App-/static/js/main.94ee2f5d.js",
     "static/js/453.bf76d5bc.chunk.js": "/Zoom-App-/static/js/453.bf76d5bc.chunk.js",
+    "static/media/zoom-logo.png": "/Zoom-App-/static/media/zoom-logo.41e9da5149f4f4c76991.png",
     "index.html": "/Zoom-App-/index.html",
     "main.756f275b.css.map": "/Zoom-App-/static/css/main.756f275b.css.map",
-    "main.f1d64e48.js.map": "/Zoom-App-/static/js/main.f1d64e48.js.map",
+    "main.94ee2f5d.js.map": "/Zoom-App-/static/js/main.94ee2f5d.js.map",
     "453.bf76d5bc.chunk.js.map": "/Zoom-App-/static/js/453.bf76d5bc.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.756f275b.css",
-    "static/js/main.f1d64e48.js"
+    "static/js/main.94ee2f5d.js"
   ]
 }
